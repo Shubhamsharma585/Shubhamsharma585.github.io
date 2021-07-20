@@ -1,0 +1,65 @@
+
+.about
+{
+    border: 0px solid lightgray;
+    min-width: 100px;
+}
+
+ 
+.about_right
+{
+    border: 0px solid lightgray;
+    background-color: #0E6E84;
+    height: 730px;
+    color: white;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 160px;
+}
+
+.about_left
+{
+    border: 0px solid lightgray;
+    background-color: #17a2b8;
+    margin-top: 20px;
+    height: 730px;
+    display: float;
+} 
+
+.tech
+{
+    border: 0px solid black;
+    background-color: #36ADA4;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.left_bar
+{
+    border: 0px solid black;
+    margin: auto;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.number
+{
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+}
+
+.info
+{
+    border: 0px solid black;
+    margin-top: 20px;
+    padding-top: 130px;
+    justify-content: center;
+    text-align: left;
+}

@@ -1,0 +1,28 @@
+
+.prof
+{
+    border: black 0px solid;
+    padding-top: 50px;
+    margin: auto;
+    justify-content:space-around;
+}
+ 
+.prof_block 
+{
+    margin: auto;
+    border: black 0px solid;
+}
+
+.heading
+{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(103, 103, 103);
+}
+
+.subheading
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(103, 103, 103);
+}
