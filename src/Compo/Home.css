@@ -72,11 +72,14 @@
     margin-bottom: 0px;
 }
 
+.navbar2
+{
+  position: sticky;
+  top: 0;
+}
 
 
-
-
-.home_image
+.home_image 
 {   
     width: 400px;
     margin-left: 5%;

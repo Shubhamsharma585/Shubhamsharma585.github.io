@@ -12,6 +12,7 @@
     padding-top: 10px;
     padding-right: 15px;
     justify-content: center;
+    display: flex;
 }
 
 .footer > p
@@ -28,7 +29,22 @@
     font-weight: 600;
 }
 
-@media screen and (min-width: 600px) {
+.footertop
+{
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: rgb(13, 145, 216);
+    margin: auto;
+    text-align: center;
+    width: 30px;
+    padding: 2px;
+    position: relative;
+    top: -35px;
+    left: 150px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
     .footer
     {
         height: 30px;
@@ -41,6 +57,24 @@
         padding-top: 15px;
         padding-right: 15px;
         justify-content: center;
+    }
+
+    .footertop
+    {
+        top: -35px;
+        left: 600px;
+        cursor: pointer;
+    }
+    
+    .footer>p
+    {
+        float: right;
+    }
+
+    .footer_name
+    {
+        margin-left: 70%;
+        border: 0px solid;
     }
 
   }

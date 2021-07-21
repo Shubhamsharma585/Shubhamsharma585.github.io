@@ -16,7 +16,7 @@ function Home() {
 
    
     return (
-        <div className="home_top">
+        <div id="home_top" className="home_top">
       
 
           <div className="home_banner">
@@ -52,12 +52,17 @@ function Home() {
                 </div>
               </div>
           </div>
+
+
+          <div className="navbar2">
            <Nav/>
            <About/>
            <Prof/>
            <Project/>
            <Blog/>
            <Footer/>
+          </div>    
+          
            <br/>
 
 

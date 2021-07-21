@@ -85,10 +85,11 @@ function About() {
                <h4 className="number">Full Stack Developer</h4>
                <p className="number"> <TiLocation/> Churu, Rajasthan, India </p>    
                <p>
-               I am a passionate full stack developer skilled 
-               in MERN Stack guided by Masai School, who is 
-               looking for opportunity to apply knowledge and 
-               shape career and become a valuable assets for organization.
+                <span>I am a passionate full stack developer skilled 
+               in MERN Stack guided by Masai School, and a proud alumani of NIT Warangal. </span>
+                <br/>
+               <span> <br/> I am looking for opportunity to apply my knowledge and skills
+               to be a valuable assets for organization and a better version of myself.</span>        
                </p>
                <p className="number"><FaPhoneAlt/> +91-8619941188</p>
                <p className="number"><IoMailSharp/> Shubhamsharma585@gmail.com</p> 

@@ -3,6 +3,7 @@
 {
     border: 0px solid lightgray;
     min-width: 100px;
+    margin-bottom: 100px;
 }
 
   
@@ -10,7 +11,7 @@
 {
     border: 0px solid lightgray;
     background-color: #0E6E84;
-    height: 730px;
+    height: 820px;
     color: white;
     text-align: left;
     padding-top: 0px;
@@ -18,6 +19,25 @@
     padding-right: 160px;
     cursor: default;
 }
+
+
+
+@media screen and (min-width: 768px) {
+   
+    .about_right
+    {
+        border: 0px solid lightgray;
+        background-color: #0E6E84;
+        height: 730px;
+        color: white;
+        text-align: left;
+        padding-top: 0px;
+        padding-left: 150px;
+        padding-right: 160px;
+        cursor: default;
+    }
+  }
+
 
 .about_left
 {

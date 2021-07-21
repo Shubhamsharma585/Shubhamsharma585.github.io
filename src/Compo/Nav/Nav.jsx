@@ -15,8 +15,7 @@ const [tog, setTog] = useState(false)
 
 function mobileMenu() {
     setTog(to => !to)
-    //hamburger.classList.toggle("active");
-    //navMenu.classList.toggle("active");
+
 }
 
 
@@ -24,7 +23,7 @@ function mobileMenu() {
     return (  
         <div className="nav">
 
-                <div className="header">
+                <div className="header"> 
                 
         <div className="navbar">
              
