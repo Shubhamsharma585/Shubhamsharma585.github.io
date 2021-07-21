@@ -10,15 +10,29 @@
   margin-bottom: 100px;
   margin-left: 70px;
 }
-
+ 
 .prof 
 {
     border: black 0px solid;
+    width: 90%;
     padding-top: 0px;
     margin: auto;
     margin-right: 5%;
     padding-right: -7%;
     justify-content:space-around;
+}
+
+
+@media screen and (min-width: 600px) {
+    .prof 
+    {
+        border: black 0px solid;
+        padding-top: 0px;
+        margin: auto;
+        margin-right: 5%;
+        padding-right: -7%;
+        justify-content:space-around;
+    }
 }
   
 .prof_block  

@@ -38,7 +38,7 @@ function Prof() {
 
              <div className={classes.root}>
 
-<Grid 
+<Grid  
 container 
 spacing={6}
 direction="row"

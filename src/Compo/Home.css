@@ -5,7 +5,6 @@
     margin-bottom: 50px;
     height: 730px;
     width: 100%;
-    overflow-x: hidden;
 }
 
 .home_banner
@@ -24,7 +23,7 @@
     /* border: black 1px solid; */
     padding: 50px;
     text-align: left;
-    width: 100%;
+    width: 90%;
     margin-left: 5%; 
     margin-right: 25%;
 }
@@ -82,7 +81,7 @@
 
 .home_image 
 {   
-    width: 400px;
+    width: 360px;
     margin-left: 5%;
     margin-right: 5%;
     animation-duration: 2s;
