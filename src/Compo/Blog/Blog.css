@@ -5,14 +5,15 @@
     margin-top: 200px;
     border: black 0px solid;
     cursor: default;
- 
+    
 }
 
-
+ 
 .blog_box
 {
-   margin: auto;
+   width: 40%;
 }
+
 
 @media screen and (min-width: 800px)
 {
@@ -21,14 +22,30 @@
         display: flex;
         flex-direction: row;
         width: 70%;
+        margin: auto;
 
     }
+    .blog_detail
+   {
+       border: black 0px solid;
+       width: 450px;
+       text-align: left;
+       margin: auto;
+       padding: 5px 10px;
+       
+   }
+   .blog_img
+  {
+     width: 400px;
+     cursor: pointer;
+  } 
+
 }
 
 .blog_detail
 {
     border: black 0px solid;
-    width: 450px;
+    width: 300px;
     text-align: left;
     margin: auto;
     padding: 5px 10px;
@@ -53,7 +70,7 @@
 
 .blog_img
 {
-   width: 400px;
+   width: 300px;
    cursor: pointer;
 } 
 

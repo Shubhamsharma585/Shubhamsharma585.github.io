@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Home.css"
 import photo from "../images/home.svg"
-import arrow from "../images/arrow.png"
 import Nav from "./Nav/Nav"
 import About from "./About/About"
 import Prof from "./Prof/Prof"

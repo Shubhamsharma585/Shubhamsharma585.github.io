@@ -5,18 +5,18 @@
     min-width: 100px;
     margin-bottom: 100px;
 }
-
+ 
   
 .about_right
 {
     border: 0px solid lightgray;
     background-color: #0E6E84;
-    height: 820px;
+    height: 650px;
     color: white;
     text-align: left;
     padding-top: 0px;
-    padding-left: 150px;
-    padding-right: 160px;
+    padding-left: 50px;
+    padding-right: 60px;
     cursor: default;
 }
 
@@ -36,6 +36,15 @@
         padding-right: 160px;
         cursor: default;
     }
+
+      .info
+      {
+          border: 0px solid black;
+          margin-top: 20px;
+          padding-top: 130px;
+          justify-content: center;
+          text-align: left;
+      }
   }
 
 
@@ -101,7 +110,7 @@
 {
     border: 0px solid black;
     margin-top: 20px;
-    padding-top: 130px;
+    padding-top: 50px;
     justify-content: center;
     text-align: left;
 }
