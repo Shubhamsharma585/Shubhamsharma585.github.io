@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-function Prof() {
+function Prof() { 
 
 
 
@@ -33,9 +33,8 @@ function Prof() {
 
  
     return (
-        <div>
-             <div className="prof">
-             <h1 className="project_header">Proficiency</h1>
+       <div id="profs"  className="prof">
+             <h1 className="prof_header">Proficiency</h1>
 
              <div className={classes.root}>
 
@@ -44,7 +43,7 @@ container
 spacing={6}
 direction="row"
 justifyContent="center"
-alignItems="center"
+alignItems="center" 
 >
  
    <Grid item xl={2} lg={3} md={4} sm={6} xs={12}>
@@ -56,22 +55,20 @@ alignItems="center"
             </div>
 
    </Grid>
-   <Grid item xl={2} lg={3} md={4} sm={6} xs={12}>
-      
+   <Grid item xl={2} lg={3} md={4} sm={6} xs={12}>      
        <div className="prof_block">
                <img src={front}/>
                <p className="heading">Frontend</p>
-               <p className="subheading">HTML, CSS, MaterialUI, Javascript, typescript, React</p>
-       </div>
-     
+               <p className="subheading">HTML, CSS, React, Redux, Javascript, Typescript, MaterialUI</p>
+       </div>    
    </Grid>
    <Grid item xl={2} lg={3} md={4} sm={6} xs={12}>
   
        <div className="prof_block">
-               <img src={algo}/>
-               <p className="heading">DS & Algo</p>
-               <p className="subheading">Intermediate level of Data Structure</p>
-            </div>
+            <img src={algo}/>
+            <p className="heading">DS & Algo</p>
+            <p className="subheading">Intermediate level of Data Structure</p>
+      </div>
       
    </Grid>
 
@@ -83,8 +80,6 @@ alignItems="center"
 
          
           
-        </div>
-            
         </div>
     )
 }

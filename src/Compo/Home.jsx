@@ -9,6 +9,7 @@ import Project from "./Projects/Project"
 import Blog from "./Blog/Blog"
 import Footer from "./Footer/Footer"
 import Typical from 'react-typical'
+import { Link } from 'react-scroll'
 
 
 function Home() {
@@ -39,14 +40,14 @@ function Home() {
                     800,
                     'Data structures and algorithms',
                     800,
-                  ]}
+                  ]} 
                    loop={Infinity}
                    wrapper="p"
                    className="home_subtag"
                  />
 
                 <div className="home_getstarted">
-                    <p className="mywork">View my work</p>
+                <Link  to="projects" spy={true} smooth={true}> <p className="mywork">View my work</p></Link>
                     <p></p>
                 </div>
               </div>

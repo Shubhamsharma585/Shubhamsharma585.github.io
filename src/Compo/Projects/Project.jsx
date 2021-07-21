@@ -2,18 +2,18 @@ import React from 'react'
 import "./Project.css"
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { Typography, Container, Grid } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import ss from "../../images/shoppers.png"
 import shine from "../../images/shine.png"
 import wa from "../../images/wa3.jpeg"
 import hs from "../../images/hubspot.jpeg"
-import { FaCss3Alt, FaReact, FaHtml5, FaNode, FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
-import { IoLogoJavascript, IoMailSharp } from "react-icons/io5";
+import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
-import { SiTypescript, SiRedux } from "react-icons/si";
-import { TiLocation } from "react-icons/ti";
- 
+import { SiRedux } from "react-icons/si";
+
+  
 const useStyles = makeStyles((theme) => ({ 
     root: {
         flexGrow: 1,
@@ -35,7 +35,7 @@ function Project() {
 
 
     return (
-        <div className="project">
+        <div id="projects" className="project">
             <h1 className="project_header">Projects</h1>
             <br/><br></br>
 
@@ -73,10 +73,10 @@ function Project() {
                           </div>
                       </div>
                        <div>
-                         <FaReact style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
-                         <SiRedux style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
-                         <DiMongodb style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
-                         <DiFirebase style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
+                         <FaReact style={{color:"#475569", fontSize:"40px"}}/>
+                         <SiRedux style={{color:"#475569", fontSize:"40px"}}/>
+                         <DiMongodb style={{color:"#475569", fontSize:"40px"}}/>
+                         <DiFirebase style={{color:"#475569", fontSize:"40px"}}/>
                        </div>
                       </div> 
                   
@@ -102,9 +102,9 @@ function Project() {
                           </div>
                       </div>
                       <div>
-                         <FaReact style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
-                         <SiRedux style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
-                         <DiFirebase style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/> 
+                         <FaReact style={{color:"#475569", fontSize:"40px"}}/>
+                         <SiRedux style={{color:"#475569", fontSize:"40px"}}/>
+                         <DiFirebase style={{color:"#475569", fontSize:"40px"}}/> 
                        </div>
                       </div>                                    
                    </Paper>
@@ -129,8 +129,8 @@ function Project() {
                           </div>
                       </div>
                       <div>
-                         <FaReact style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/>
-                         <DiFirebase style={{color:"rgb(255, 0, 43)", fontSize:"40px"}}/> 
+                         <FaReact style={{color:"#475569", fontSize:"40px"}}/>
+                         <DiFirebase style={{color:"#475569", fontSize:"40px"}}/> 
                        </div>
                       </div>        
                    </Paper>
@@ -146,18 +146,18 @@ function Project() {
                             <h3>HubSpot.com</h3>
                             <p>Internet Marketing Company</p>
                             <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button color="secondary" variant="contained">GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained">GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button color="secondary" variant="contained">Live</Button>
+                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained">Live</Button>
                                 </a> 
                             </div>
                           </div>
                       </div>
                       <div>
-                        <FaHtml5 style={{color:"rgb(255, 0, 43)", fontSize:"40px", margin:"5px"}}/>
-                        <FaCss3Alt style={{color:"rgb(255, 0, 43)", fontSize:"40px", margin:"5px"}}/> 
-                        <IoLogoJavascript style={{color:"rgb(255, 0, 43)", fontSize:"40px", margin:"5px"}}/>
+                        <FaHtml5 style={{color:"#475569", fontSize:"40px", margin:"5px"}}/>
+                        <FaCss3Alt style={{color:"#475569", fontSize:"40px", margin:"5px"}}/> 
+                        <IoLogoJavascript style={{color:"#475569", fontSize:"40px", margin:"5px"}}/>
                        </div>
                       </div>     
                    </Paper>

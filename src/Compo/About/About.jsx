@@ -40,7 +40,7 @@ function About() {
 
     
     return (
-        <div className="about">
+        <div id="about" className="about">
              <div className={classes.root}>
 
              <h1 className="project_header">About</h1>

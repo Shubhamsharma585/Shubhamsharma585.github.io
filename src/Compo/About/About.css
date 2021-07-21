@@ -5,7 +5,7 @@
     min-width: 100px;
 }
 
- 
+  
 .about_right
 {
     border: 0px solid lightgray;
@@ -16,6 +16,7 @@
     padding-top: 0px;
     padding-left: 150px;
     padding-right: 160px;
+    cursor: default;
 }
 
 .about_left
@@ -32,10 +33,31 @@
     border: 0px solid black;
     background-color: #36ADA4;
     border-radius: 50%;
-    margin: 20px;
+    margin: 18px;
     padding: 10px;
     width: fit-content;
+    cursor: pointer;
+    position: relative;
+    top:0px;
+    transition: top 0.5s;
 }
+
+.tech:hover
+{
+    position: relative;
+    top:-20px;
+}
+
+.tech_name
+{
+    position: relative;
+    top: 120px;
+    left:-90px;
+    float: left;
+    color: white;
+}
+
+
 
 .left_bar
 {

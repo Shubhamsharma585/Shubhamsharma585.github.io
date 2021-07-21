@@ -12,7 +12,7 @@ function Blog() {
 
 
     return (
-        <div className="blog">
+        <div id="blog" className="blog">
             <h1 className="project_header">Blogs</h1>
         
             <div className="blog_box">
