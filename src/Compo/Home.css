@@ -19,7 +19,7 @@
 }
 
 .home_profile
-{
+{ 
     /* border: black 1px solid; */
     padding: 50px;
     text-align: left;
@@ -81,7 +81,7 @@
 
 .home_image 
 {   
-    width: 360px;
+    width: 260px;
     margin-left: 5%;
     margin-right: 5%;
     animation-duration: 2s;
@@ -124,8 +124,8 @@
     .home_image 
     {
       /* border: 1px solid rgb(235, 8, 8); */
-      width: 400px; 
-      height: 400px;
+      width: 200px; 
+      height: 200px;
       justify-content: space-between;
       float: left;
       margin-top: 0%;
@@ -158,9 +158,10 @@
 
     .home_image 
     {
-      /* border: 1px solid black; */
-      width: 500px; 
-      height: 500px;
+      border: 0px solid #3498db;
+      border-radius: 50%;
+      width: 300px; 
+      height: 300px;
       justify-content: space-between;
       float: right;
       margin-top: 0%;

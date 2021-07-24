@@ -6,7 +6,7 @@ import front from "../../images/frontend.png"
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Container, Grid } from '@material-ui/core';
 
-
+ 
 
 
 
