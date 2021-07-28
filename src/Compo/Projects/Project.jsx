@@ -96,7 +96,7 @@ function Project() {
                                 <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained">GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained">Live</Button>
+                            <a href="https://shine-masai.vercel.app/">  <Button color="secondary" variant="contained">Live</Button>
                                 </a> 
                             </div>
                           </div>
