@@ -149,7 +149,7 @@ function Project() {
                                 <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained">GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained">Live</Button>
+                                <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" color="secondary" variant="contained">Live</Button>
                                 </a> 
                             </div>
                           </div>
