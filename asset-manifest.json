@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.abd889aa.chunk.css",
-    "main.js": "/static/js/main.7bd50f73.chunk.js",
-    "main.js.map": "/static/js/main.7bd50f73.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.820ba55d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.820ba55d.js.map",
-    "static/js/2.7dd5be9a.chunk.js": "/static/js/2.7dd5be9a.chunk.js",
-    "static/js/2.7dd5be9a.chunk.js.map": "/static/js/2.7dd5be9a.chunk.js.map",
-    "static/js/3.e89eb0a7.chunk.js": "/static/js/3.e89eb0a7.chunk.js",
-    "static/js/3.e89eb0a7.chunk.js.map": "/static/js/3.e89eb0a7.chunk.js.map",
+    "main.css": "/static/css/main.1b7f69e3.chunk.css",
+    "main.js": "/static/js/main.f4f9af01.chunk.js",
+    "main.js.map": "/static/js/main.f4f9af01.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.362f0bc8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.362f0bc8.js.map",
+    "static/js/2.b2b18368.chunk.js": "/static/js/2.b2b18368.chunk.js",
+    "static/js/2.b2b18368.chunk.js.map": "/static/js/2.b2b18368.chunk.js.map",
+    "static/js/3.db0fd33b.chunk.js": "/static/js/3.db0fd33b.chunk.js",
+    "static/js/3.db0fd33b.chunk.js.map": "/static/js/3.db0fd33b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.abd889aa.chunk.css.map": "/static/css/main.abd889aa.chunk.css.map",
-    "static/js/2.7dd5be9a.chunk.js.LICENSE.txt": "/static/js/2.7dd5be9a.chunk.js.LICENSE.txt",
+    "static/css/main.1b7f69e3.chunk.css.map": "/static/css/main.1b7f69e3.chunk.css.map",
+    "static/js/2.b2b18368.chunk.js.LICENSE.txt": "/static/js/2.b2b18368.chunk.js.LICENSE.txt",
     "static/media/backend.5c03fa70.png": "/static/media/backend.5c03fa70.png",
+    "static/media/ban.d12e2a27.svg": "/static/media/ban.d12e2a27.svg",
     "static/media/frontend.849a8b0e.png": "/static/media/frontend.849a8b0e.png",
-    "static/media/home.f440f94c.png": "/static/media/home.f440f94c.png",
     "static/media/hubspot.44ea77c0.jpeg": "/static/media/hubspot.44ea77c0.jpeg",
+    "static/media/me.ae9a8b85.png": "/static/media/me.ae9a8b85.png",
     "static/media/shine.d310bb45.png": "/static/media/shine.d310bb45.png",
     "static/media/shoppers.31026ede.png": "/static/media/shoppers.31026ede.png",
     "static/media/ssblog.e5d58f19.jpeg": "/static/media/ssblog.e5d58f19.jpeg",
     "static/media/wa3.910e67c0.jpeg": "/static/media/wa3.910e67c0.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.820ba55d.js",
-    "static/js/2.7dd5be9a.chunk.js",
-    "static/css/main.abd889aa.chunk.css",
-    "static/js/main.7bd50f73.chunk.js"
+    "static/js/runtime-main.362f0bc8.js",
+    "static/js/2.b2b18368.chunk.js",
+    "static/css/main.1b7f69e3.chunk.css",
+    "static/js/main.f4f9af01.chunk.js"
   ]
 }
