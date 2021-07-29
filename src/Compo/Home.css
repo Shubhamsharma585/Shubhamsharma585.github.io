@@ -29,7 +29,7 @@
 }
 
 .home_subtag
-{
+{ 
     color: #484848;
     font-size: 20px;
     font-weight: 400;
@@ -81,7 +81,7 @@
 
 .home_image 
 {   
-    width: 260px;
+    width: 320px;
     margin-left: 8%;
     margin-right: 0%;
     animation-duration: 2s;
@@ -124,8 +124,8 @@
     .home_image 
     {
       /* border: 1px solid rgb(235, 8, 8); */
-      width: 200px; 
-      height: 200px;
+      width: 300px; 
+      height: 300px;
       justify-content: space-between;
       float: left;
       margin-top: 0%;
@@ -160,8 +160,8 @@
     {
       border: 0px solid #3498db;
       border-radius: 50%;
-      width: 300px; 
-      height: 300px;
+      width: 450px; 
+      height: 400px;
       justify-content: space-between;
       float: right;
       margin-top: 0%;

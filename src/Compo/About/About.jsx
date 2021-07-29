@@ -7,10 +7,9 @@ import { SiTypescript, SiRedux } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid } from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
- 
+import home from "../../images/me.png"
 
- 
+  
 
 
 const useStyles = makeStyles((theme) => ({ 
@@ -81,6 +80,8 @@ function About() {
                 <Grid item  xl={6} lg={6} md={6} sm={12} xs={12}>
                     <div className="about_right">
                         <div className="info">
+                <div className="about_rightimg"><img src={home} alt="" width="150px"/></div>
+
                         <h1>Shubham Sharma</h1>
                <h4 className="number">Full Stack Developer</h4>
                <p className="number"> <TiLocation/> Churu, Rajasthan, India </p>    

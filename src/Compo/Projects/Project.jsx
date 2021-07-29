@@ -17,7 +17,7 @@ import { SiRedux } from "react-icons/si";
 const useStyles = makeStyles((theme) => ({ 
     root: {
         flexGrow: 1,
-      },
+      }, 
       paper: {
         padding: theme.spacing(1),
         textAlign: 'center',

@@ -1,0 +1,122 @@
+
+.getin
+{
+    border: 0px solid black;
+    height: 600px;
+    margin-top: 30px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.main
+{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 0px;
+    border: 0px solid red;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.getinheading
+{
+    border: 0px solid white;
+    border-bottom: white 3px solid;
+    width: 250px;
+    margin: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+input
+{
+   width: 70%;
+   height: 40px;
+   border-radius: 5px;
+   font-size: 16px;
+   padding-left: 5px;
+   margin-bottom: 10px;
+}
+
+textarea
+{
+    width: 70%;
+    height: 100px;
+    font-size: 16px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.btn
+{
+    height: 50px;
+    width: 50%;
+    font-size: 15px;
+    color: white;
+    background-color: turquoise;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 40px;
+}
+.btn:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .main
+    {
+        height: 500px;
+        width: 450px;
+        border: 0px solid red;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 900px) {
+    .main
+    {
+        height: 500px;
+        width: 550px;
+        border: 1px solid turquoise;
+        box-shadow: 5px 5px 15px 5px turquoise;
+    }
+
+input
+{
+   width: 50%;
+   height: 40px;
+   border-radius: 5px;
+   font-size: 16px;
+   padding-left: 5px;
+   margin-bottom: 10px;
+}
+
+textarea
+{
+    width: 50%;
+    height: 100px;
+    font-size: 16px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+    
+
+}
+
+

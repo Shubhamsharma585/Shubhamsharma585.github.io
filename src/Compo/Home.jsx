@@ -1,27 +1,31 @@
 import React from 'react'
 import "./Home.css"
-import photo from "../images/home.png"
+import ban from "../images/ban.svg"
 import Nav from "./Nav/Nav"
 import About from "./About/About"
 import Prof from "./Prof/Prof"
 import Project from "./Projects/Project"
 import Blog from "./Blog/Blog"
+import Masai from "./Masai/Masai"
+import Calender from './GitCalender/Calender'
+import Getin from "./Getin/Getin"
 import Footer from "./Footer/Footer"
 import Typical from 'react-typical'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll' 
 
 
+ 
 function Home() {
 
    
     return (
         <div id="home_top" className="home_top">
-      
+         
 
           <div className="home_banner">
 
              <div >  
-                 <img src={photo} className="home_image"/>
+                 <img src={ban} className="home_image"/>
               </div>
 
               <div className="home_profile">
@@ -59,6 +63,9 @@ function Home() {
            <Prof/>
            <Project/>
            <Blog/>
+           <Masai/>
+           <Calender/>
+           <Getin/>
            <Footer/>
           </div>    
           
