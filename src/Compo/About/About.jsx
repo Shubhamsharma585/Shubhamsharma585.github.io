@@ -8,8 +8,10 @@ import { TiLocation } from "react-icons/ti";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid } from '@material-ui/core';
 import home from "../../images/me.png"
+import Tooltip from '@material-ui/core/Tooltip';
 
-  
+
+   
 
 
 const useStyles = makeStyles((theme) => ({ 
@@ -56,19 +58,19 @@ function About() {
                      <div className="about_left"> 
                      <div className="left_bar"></div>
                         <div className="left_bar">
-                        <div className="tech"> <FaHtml5 style={{color:"white", fontSize:"75px", margin:"5px"}}/></div>
-                        <div className="tech"> <FaCss3Alt style={{color:"white", fontSize:"75px", margin:"5px"}}/> </div>
-                        <div className="tech"> <FaNode style={{color:"white", fontSize:"80px"}}/></div>
+                        <Tooltip title={<h1 style={{ color: "white" }}>HTML</h1>}><div className="tech"> <FaHtml5 style={{color:"white", fontSize:"75px", margin:"5px"}}/></div></Tooltip>
+                        <Tooltip title={<h1 style={{ color: "white" }}>CSS</h1>}><div className="tech"> <FaCss3Alt style={{color:"white", fontSize:"75px", margin:"5px"}}/> </div></Tooltip>
+                         <Tooltip title={<h1 style={{ color: "white" }}>NodeJs</h1>}><div className="tech"><FaNode style={{color:"white", fontSize:"80px"}}/></div></Tooltip>
                         </div>
                         <div className="left_bar">
-                        <div className="tech"> <FaReact style={{color:"white", fontSize:"80px"}}/></div>
-                        <div className="tech"> <SiRedux style={{color:"white", fontSize:"80px"}}/></div>
-                        <div className="tech"> <IoLogoJavascript style={{color:"white", fontSize:"70px", margin:"10px"}}/></div>
+                        <Tooltip title={<h1 style={{ color: "white" }}>ReactJs</h1>}><div className="tech"> <FaReact style={{color:"white", fontSize:"80px"}}/></div></Tooltip>
+                        <Tooltip title={<h1 style={{ color: "white" }}>Redux</h1>}><div className="tech"> <SiRedux style={{color:"white", fontSize:"80px"}}/></div></Tooltip>
+                        <Tooltip title={<h1 style={{ color: "white" }}>JavaScript</h1>}><div className="tech"> <IoLogoJavascript style={{color:"white", fontSize:"70px", margin:"10px"}}/></div></Tooltip>
                         </div>
                         <div className="left_bar">
-                        <div className="tech"> <DiMongodb style={{color:"white", fontSize:"80px"}}/>   </div>
-                        <div className="tech"> <DiFirebase style={{color:"white", fontSize:"80px"}}/>   </div>
-                        <div className="tech"> <SiTypescript style={{color:"white", fontSize:"60px", margin:"15px"}}/> </div>
+                        <Tooltip title={<h1 style={{ color: "white" }}>MongoDB</h1>}><div className="tech"> <DiMongodb style={{color:"white", fontSize:"80px"}}/>   </div></Tooltip>
+                        <Tooltip title={<h1 style={{ color: "white" }}>Firebase</h1>}><div className="tech"> <DiFirebase style={{color:"white", fontSize:"80px"}}/>   </div></Tooltip>
+                        <Tooltip title={<h1 style={{ color: "white" }}>TypeScript</h1>}><div className="tech"> <SiTypescript style={{color:"white", fontSize:"60px", margin:"15px"}}/> </div></Tooltip>
                         </div>       
                     </div> 
                 </Grid>

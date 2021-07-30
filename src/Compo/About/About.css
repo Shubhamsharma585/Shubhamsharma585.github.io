@@ -11,7 +11,7 @@
 {
     border: 0px solid lightgray;
     background-color: #0E6E84;
-    height: 650px;
+    height: 700px;
     color: white;
     text-align: left;
     padding-top: 0px;
@@ -19,6 +19,7 @@
     padding-right: 60px;
     cursor: default;
 }
+
 
 .about_rightimg
 {
@@ -33,11 +34,12 @@
 
 @media screen and (min-width: 768px) {
    
+
     .about_right
     {
         border: 0px solid lightgray;
         background-color: #0E6E84;
-        height: 730px;
+        height: 800px;
         color: white;
         text-align: left;
         padding-top: 0px;
@@ -63,7 +65,7 @@
     border: 0px solid lightgray;
     background-color: #17a2b8;
     margin-top: 20px;
-    height: 730px;
+    height: 800px;
     display: float;
 } 
 
@@ -125,3 +127,4 @@
     text-align: left;
 }
 
+ 

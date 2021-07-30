@@ -63,10 +63,10 @@ function Project() {
                             <h3>Shopperstop.com</h3>
                             <p>E-Commerce Website</p>
                             <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button color="secondary" variant="contained">GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button color="secondary" variant="contained">Live</Button>
+                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                             
@@ -93,10 +93,10 @@ function Project() {
                             <h3>Shine.com</h3>
                             <p>Online Job Portal</p>
                             <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained">GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shine-masai.vercel.app/">  <Button color="secondary" variant="contained">Live</Button>
+                            <a href="https://shine-masai.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                           </div>
@@ -120,10 +120,10 @@ function Project() {
                             <h3>Whatsapp.com</h3>
                             <p>Messaging app</p>
                             <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Whatsapp_Clone">  <Button color="secondary" variant="contained">GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/Whatsapp_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://whatsappbyshubhamsharma585.netlify.app/">  <Button color="secondary" variant="contained">Live</Button>
+                            <a href="https://whatsappbyshubhamsharma585.netlify.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                           </div>
@@ -146,10 +146,10 @@ function Project() {
                             <h3>HubSpot.com</h3>
                             <p>Internet Marketing Company</p>
                             <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained">GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                                <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" color="secondary" variant="contained">Live</Button>
+                                <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                           </div>
