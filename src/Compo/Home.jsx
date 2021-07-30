@@ -12,7 +12,6 @@ import Getin from "./Getin/Getin"
 import Footer from "./Footer/Footer"
 import Typical from 'react-typical'
 import { Link } from 'react-scroll' 
-import Top from "./Top/Top"
 
 
  
@@ -21,17 +20,16 @@ function Home() {
    
     return (
         <div id="home_top" className="home_top">
+         
 
-  
-            
+          <div className="home_banner">
 
-          {/* <div className="home_banner"> */}
-
-             {/* <div >  
+             <div >  
                  <img src={ban} className="home_image"/>
               </div>
 
               <div className="home_profile">
+
                 <h1 className="home_tag">Full Stack Developer</h1>
                 <h1 className="home_name"><strong>Shubham Sharma</strong></h1>
                 <Typical                
@@ -50,19 +48,18 @@ function Home() {
                    loop={Infinity}
                    wrapper="p"
                    className="home_subtag"
-                 />
-
-                <Link  to="projects" spy={true} smooth={true}> <div className="home_getstarted">
+                 /> 
+               <Link  to="projects" spy={true} smooth={true}> <div className="home_getstarted">
                 <p className="mywork">View my work</p>
                     <p></p>
                 </div></Link>
+
               </div>
-          </div> */}
+          </div>
 
 
           <div className="navbar2">
            <Nav/>
-           <Top/>
            <About/>
            <Prof/> 
            <Project/>
