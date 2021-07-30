@@ -13,7 +13,7 @@
 .main
 {
     height: 500px;
-    width: 400px;
+    width: 300px;
     margin: auto;
     margin-top: 0px;
     border: 0px solid red;
@@ -96,7 +96,7 @@ textarea
         box-shadow: 5px 5px 15px 5px turquoise;
     }
 
-input
+input 
 {
    width: 50%;
    height: 40px;

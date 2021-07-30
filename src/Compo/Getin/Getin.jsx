@@ -10,7 +10,7 @@ function Getin() {
 
 
 
-
+ 
     return (
         <div className="getin"> 
            <div className="main">
