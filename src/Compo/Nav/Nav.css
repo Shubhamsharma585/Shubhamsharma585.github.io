@@ -118,9 +118,9 @@ a {
   .nav-menu {
       border: 0px solid black;
       position: relative;
-      margin-top: -180px;
+      margin-top: -230px;
       left: -100%;
-      top: 20rem;
+      top: 25rem;
       height: 280px;
       flex-direction: column;
       background-color: rgb(192, 222, 231);
