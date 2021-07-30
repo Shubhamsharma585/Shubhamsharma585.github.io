@@ -49,10 +49,11 @@ function Home() {
                    className="home_subtag"
                  />
 
-                <div className="home_getstarted">
-                <Link  to="projects" spy={true} smooth={true}> <p className="mywork">View my work</p></Link>
+                <Link  to="projects" spy={true} smooth={true}> <div className="home_getstarted">
+                <p className="mywork">View my work</p>
                     <p></p>
                 </div>
+                </Link>
               </div>
           </div>
 
