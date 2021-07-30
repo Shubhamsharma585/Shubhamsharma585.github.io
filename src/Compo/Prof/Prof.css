@@ -11,7 +11,7 @@
   margin-left: 0px;
 }
   
-.prof 
+.prof  
 {
     border: black 0px solid;
     width: 85%;
@@ -29,8 +29,8 @@
         border: black 0px solid;
         padding-top: 0px;
         margin: auto;
-        margin-right: 5%;
-        padding-right: -7%;
+        margin-right: 7%;
+        padding-right: -4%;
         justify-content:space-around;
     }
 }

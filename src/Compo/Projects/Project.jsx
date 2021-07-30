@@ -143,7 +143,7 @@ function Project() {
                           <div className="content-overlay"></div>
                           <img src={hs} alt="hubspot" className="hs_img"/>
                           <div class="content-details fadeIn-top">
-                            <h3>HubSpot.com</h3>
+                            <h3>HubSpot.com</h3> 
                             <p>Internet Marketing Company</p>
                             <div className="gitlive">
                                 <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
