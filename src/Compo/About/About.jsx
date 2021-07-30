@@ -7,7 +7,7 @@ import { SiTypescript, SiRedux } from "react-icons/si";
 import { TiLocation } from "react-icons/ti";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid } from '@material-ui/core';
-import home from "../../images/me.png"
+import home from "../../images/me4.jpg"
 import Tooltip from '@material-ui/core/Tooltip';
 
 
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
       }
 
 }))
-
+ 
 
 
 
@@ -57,6 +57,7 @@ function About() {
                 <Grid item  xl={6} lg={6} md={6} sm={12} xs={12}>
                      <div className="about_left"> 
                      <div className="left_bar"></div>
+                       <h1>Skills</h1>
                         <div className="left_bar">
                         <Tooltip title={<h1 style={{ color: "white" }}>HTML</h1>}><div className="tech"> <FaHtml5 style={{color:"white", fontSize:"75px", margin:"5px"}}/></div></Tooltip>
                         <Tooltip title={<h1 style={{ color: "white" }}>CSS</h1>}><div className="tech"> <FaCss3Alt style={{color:"white", fontSize:"75px", margin:"5px"}}/> </div></Tooltip>
@@ -82,7 +83,8 @@ function About() {
                 <Grid item  xl={6} lg={6} md={6} sm={12} xs={12}>
                     <div className="about_right">
                         <div className="info">
-                <div className="about_rightimg"><img src={home} alt="" width="150px"/></div>
+                     
+                <div className="about_rightimg"><img src={home} alt="" width="190px"/></div>
 
                         <h1>Shubham Sharma</h1>
                <h4 className="number">Full Stack Developer</h4>
@@ -97,9 +99,7 @@ function About() {
                <p className="number"><FaPhoneAlt/> +91-8619941188</p>
                <p className="number"><IoMailSharp/> Shubhamsharma585@gmail.com</p> 
                <div style={{display:"flex", flexDirection:"row"}}> 
-                   <a href="https://www.linkedin.com/in/shubhamsharma585/"> <FaLinkedin style={{color:"black",  marginRight:"5px", marginTop:"5px", fontSize:"20px"}}/></a>
-                   <a href="https://github.com/Shubhamsharma585"><FaGithub style={{color:"black", marginRight:"10px", marginTop:"5px", fontSize:"20px"}}/></a>
-                   <a href="https://drive.google.com/file/d/1Mvdo4FZstRGPDneui6qlFG-hvF-PRJjq/view?usp=sharing"><h3 style={{marginTop:"3px", fontSize:"20px", color:"white"}}>View full Resume</h3></a> 
+                   <a href="https://drive.google.com/file/d/1Mvdo4FZstRGPDneui6qlFG-hvF-PRJjq/view?usp=sharing"><h3 style={{marginTop:"3px", fontSize:"20px", color:"white"}}>View Full Resume</h3></a> 
                 </div>  
                         </div>                      
                     </div> 

@@ -1,6 +1,6 @@
 import './App.css';
 import Router from "./Compo/Router"
-
+import Nav from "./Compo/Nav/Nav"
 
 function App() {
   return (

@@ -18,7 +18,7 @@
 @media screen and (min-width: 600px) {
     .nav
     {
-      margin-top: 250px; 
+      margin-top: 270px; 
       position: sticky;
       top: 0px;
       z-index:1;
@@ -129,6 +129,7 @@ a {
       border-radius: 10px;
       text-align: center;
       transition: 0.3s;
+      z-index:1;
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05);
   }

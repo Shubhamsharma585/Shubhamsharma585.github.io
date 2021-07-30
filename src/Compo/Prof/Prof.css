@@ -8,17 +8,17 @@
   font-size: 40px; 
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 25px;
+  margin-left: 0px;
 }
- 
+  
 .prof 
 {
     border: black 0px solid;
-    width: 90%;
+    width: 85%;
     padding-top: 0px;
     margin: auto;
     margin-right: 5%;
-    padding-right: -7%;
+    padding-right: -8%;
     justify-content:space-around;
 }
 

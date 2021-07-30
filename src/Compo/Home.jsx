@@ -20,7 +20,9 @@ function Home() {
    
     return (
         <div id="home_top" className="home_top">
-         
+
+  
+            
 
           <div className="home_banner">
 
@@ -52,8 +54,7 @@ function Home() {
                 <Link  to="projects" spy={true} smooth={true}> <div className="home_getstarted">
                 <p className="mywork">View my work</p>
                     <p></p>
-                </div>
-                </Link>
+                </div></Link>
               </div>
           </div>
 
@@ -61,7 +62,7 @@ function Home() {
           <div className="navbar2">
            <Nav/>
            <About/>
-           <Prof/>
+           <Prof/> 
            <Project/>
            <Blog/>
            <Masai/>

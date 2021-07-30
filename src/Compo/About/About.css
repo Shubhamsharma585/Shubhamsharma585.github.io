@@ -11,7 +11,7 @@
 {
     border: 0px solid lightgray;
     background-color: #0E6E84;
-    height: 700px;
+    height: 880px;
     color: white;
     text-align: left;
     padding-top: 0px;
@@ -114,7 +114,7 @@
 
 .number
 {
-   color: rgb(0, 0, 0);
+   color: rgb(0, 11, 16);
    font-size: 18px;
 }
 

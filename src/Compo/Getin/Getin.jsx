@@ -1,24 +1,31 @@
 import React from 'react'
 import "./Getin.css"
-
-
+import { FaGithub, FaLinkedin, FaPhoneAlt, FaDownload } from "react-icons/fa";
+import { IoMailSharp } from "react-icons/io5";
+import Tooltip from '@material-ui/core/Tooltip';
 
 
 
 
 function Getin() {
+ 
 
+  
 
 
  
     return (
-        <div className="getin"> 
+        <div className="getin" id="contact"> 
            <div className="main">
             <div className="form">
 
-            <div className="getinheading"> <h1 style={{color:"white", margin:"auto", width:"fit-content"}}>Get in Touch</h1></div>
+            <div className="getinheading"> <h1 style={{color:"white", margin:"auto", width:"fit-content"}}>Get in Touch</h1>
+            </div>
                
-                <form action="https://formspree.io/f/xknkqogp" method="POST">
+               <div className="contact">
+
+              <div className="getinleft">
+              <form action="https://formspree.io/f/xknkqogp" method="POST">
                 
                 <input type="text" id="fname" name="firstname" placeholder="Your name" required="true" /><br/>
                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required="true"/><br></br>
@@ -30,13 +37,33 @@ function Getin() {
                  </button>
 
                 </form>
+              </div>
 
+             
+             <div className="getinright">
+        
+               <div className="getinright1">
+                  <h4 style={{color:"white", fontFamily:"sans-serif", fontWeight:"500", margin:"15px", fontSize:"18px" }}>
+                Let's Connect
+                </h4>
+               </div>
+            
 
-
-
+               <div className="getinright1">
+              <a href="https://www.linkedin.com/in/shubhamsharma585/"> <FaLinkedin className="con"/></a>
+              <a href="https://github.com/Shubhamsharma585"><FaGithub className="con"/> </a> 
+              <a href="https://drive.google.com/file/d/1Mvdo4FZstRGPDneui6qlFG-hvF-PRJjq/view?usp=sharing"><FaDownload className="con"/></a>
+              <div><Tooltip title={<h1 style={{ color: "white" }}>+918619941188</h1>}><div> <FaPhoneAlt className="con"/>  </div></Tooltip></div>
+              <div><Tooltip title={<h1 style={{ color: "white" }}>Shubhamsharma585@gmail.com</h1>}><div> <IoMailSharp className="con"/>  </div></Tooltip></div>  
+              </div>
+             </div>
+             
+        
+                 
+              </div>
             </div> 
 
-           <div className="right"></div>
+          
 
             </div>
         </div>

@@ -8,7 +8,7 @@
 }
 
 .home_banner
-{
+{ 
     border: black 0px solid;
     width: 76%;
 }
@@ -40,7 +40,7 @@
     border: 2px solid #3498db;
     border-radius: 30px;
     font-size: 18px;
-    width: 170px;
+    width: 160px;
     padding: 5px;
     padding-left: 20px;
     height: 25px;
@@ -81,7 +81,7 @@
 
 .home_image 
 {   
-    width: 320px;
+    width: 300px;
     margin-left: 8%;
     margin-right: 0%;
     animation-duration: 2s;
@@ -129,14 +129,14 @@
       justify-content: space-between;
       float: left;
       margin-top: 0%;
-      margin-right: 25%;
+      margin-right: 20%;
     }
     .home_profile
     {
       /* border: 1px solid black;   */
       margin-left: 26px;
       margin-top: 10%;
-      width: 500px;
+      width: 400px;
     }
  
   }
@@ -161,7 +161,7 @@
       border: 0px solid #3498db;
       border-radius: 50%;
       width: 450px; 
-      height: 400px;
+      height: 400px; 
       justify-content: space-between;
       float: right;
       margin-top: 0%;

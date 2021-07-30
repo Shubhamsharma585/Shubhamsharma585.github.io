@@ -8,7 +8,6 @@ import { Link } from 'react-scroll'
 function Nav() {
 
  
-//#475569
 
 const [tog, setTog] = useState(false)
 
@@ -42,6 +41,9 @@ function mobileMenu() {
                 <li className="nav-item">
                 <Link  to="blog" spy={true} smooth={true}><a className="nav-link">Blogs</a></Link>
                 </li>
+                <li className="nav-item">
+                <Link  to="contact" spy={true} smooth={true}><a className="nav-link">Contact</a></Link>
+                </li>
             </ul>
             <div className={`hamburger ${tog && `active`}`} onClick={() => mobileMenu()}>
                 <span className="bar"></span>
@@ -49,7 +51,7 @@ function mobileMenu() {
                 <span className="bar"></span>
             </div>
 
-             </div>
+             </div> 
         </div>
 
        </div>
