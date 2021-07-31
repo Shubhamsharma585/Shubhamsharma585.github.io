@@ -65,7 +65,7 @@ function Home() {
            <Project/>
            <Blog/>
            <Masai/>
-           <Calender/>
+           {/* <Calender/> */}
            <Getin/>
            <Footer/>
           </div>    

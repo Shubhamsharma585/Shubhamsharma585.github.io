@@ -143,10 +143,15 @@ textarea
     {
         height: 500px;
         width: 900px;
-        border: 1px solid turquoise;
-        box-shadow: 5px 5px 15px 5px turquoise;
+        border: 0px solid turquoise;
+        box-shadow: 0px 0px 0px 0px turquoise;
     }
 
+.getinheading
+{
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
  .contact
 {
     display: flex;

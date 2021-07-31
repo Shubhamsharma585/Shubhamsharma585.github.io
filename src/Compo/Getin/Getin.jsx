@@ -50,11 +50,12 @@ function Getin() {
             
 
                <div className="getinright1">
-              <a href="https://www.linkedin.com/in/shubhamsharma585/"> <FaLinkedin className="con"/></a>
-              <a href="https://github.com/Shubhamsharma585"><FaGithub className="con"/> </a> 
-              <a href="https://drive.google.com/file/d/1Mvdo4FZstRGPDneui6qlFG-hvF-PRJjq/view?usp=sharing"><FaDownload className="con"/></a>
-              <div><Tooltip title={<h1 style={{ color: "white" }}>+918619941188</h1>}><div> <FaPhoneAlt className="con"/>  </div></Tooltip></div>
-              <div><Tooltip title={<h1 style={{ color: "white" }}>Shubhamsharma585@gmail.com</h1>}><div> <IoMailSharp className="con"/>  </div></Tooltip></div>  
+              <a target="_blank" href="https://www.linkedin.com/in/shubhamsharma585/"> <FaLinkedin className="con"/></a>
+              <a target="_blank" href="https://github.com/Shubhamsharma585"><FaGithub className="con"/> </a> 
+              <a target="_blank" href="https://drive.google.com/file/d/1Mvdo4FZstRGPDneui6qlFG-hvF-PRJjq/view?usp=sharing"><FaDownload className="con"/></a>
+              <a target="_blank" href="tel:+918619941188"><FaPhoneAlt className="con"/></a>
+              <a target="_blank" href="mailto:Shubhamsharma585@gmail.com"><IoMailSharp className="con"/></a>
+
               </div>
              </div>
              

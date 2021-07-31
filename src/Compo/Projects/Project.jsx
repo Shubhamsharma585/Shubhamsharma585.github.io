@@ -4,14 +4,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Grid } from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
-import ss from "../../images/shoppers.png"
-import shine from "../../images/shine.png"
-import wa from "../../images/wa3.jpeg"
-import hs from "../../images/hubspot.jpeg"
+import ipo from "../../images/ipo.gif"
+import shine from "../../images/shine.gif"
+import wa from "../../images/wa.gif"
+import hs from "../../images/hs.gif"
 import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
-import { SiRedux } from "react-icons/si";
+import { SiRedux, SiMaterialUi } from "react-icons/si";
 
   
 const useStyles = makeStyles((theme) => ({ 
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-function Project() {
+function Project() { 
 
 
     const classes = useStyles();
@@ -53,55 +53,93 @@ function Project() {
             alignItems="center"
             >
             
-               <Grid item  xl={3} lg={4} md={4} sm={6} xs={12} className="projectdiv">
+               <Grid item  xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
                    <Paper>
                    <div className="container">
                       <div className="content">
                           <div className="content-overlay"></div>
-                          <img src={ss} alt="shine" className="shine_img"/>
+                          <img src={ipo} alt="shine" className="shine_img"/>
                           <div class="content-details fadeIn-top">
                             <h3>Shopperstop.com</h3>
                             <p>E-Commerce Website</p>
-                            <div className="gitlive">
+
+                            {/* <div className="gitlive">
+                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                </a> 
+                            <div style={{width:"20px"}} />
+                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                                </a> 
+                            </div> */}
+                            
+                          </div>
+                      </div>
+
+                      <div className="gitlive">
                                 <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
                             <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
-                            
-                          </div>
-                      </div>
-                       <div>
-                         <FaReact style={{color:"#475569", fontSize:"40px"}}/>
-                         <SiRedux style={{color:"#475569", fontSize:"40px"}}/>
-                         <DiMongodb style={{color:"#475569", fontSize:"40px"}}/>
-                         <DiFirebase style={{color:"#475569", fontSize:"40px"}}/>
-                       </div>
                       </div> 
                   
                    </Paper>
                </Grid>
 
-               <Grid item xl={3} lg={4} md={4} sm={6} xs={12} className="projectdiv">
+               <Grid item xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
                    <Paper>
-                     <div className="container">
-                      <div className="content">
-                          <div className="content-overlay"></div>
-                          <img className="ss_img" src={shine} alt="shopperstop"/>
-                          <div class="content-details fadeIn-top">
-                            <h3>Shine.com</h3>
-                            <p>Online Job Portal</p>
-                            <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
-                                </a> 
-                            <div style={{width:"20px"}} />
-                            <a href="https://shine-masai.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
-                                </a> 
-                            </div>
-                          </div>
+                     <div className="container1">
+                      <div className="content1">
+                      <h4>Shopperstop.com</h4>
+                          <p>A website which allows user to register and login where user can
+                              choose a product and buy it.
+                          </p>
+                          <p>
+                              Project duration: 6 days
+                          </p>
+                          <p>
+                             TechStack: React, Redux, MongoDB, 
+                             Express, Firebase 
+                          </p>
+                          <p>
+                             Team: 3 members 
+                          </p>
+    
                       </div>
                       <div>
+                         <FaReact style={{color:"#475569", fontSize:"40px"}}/>
+                         <SiRedux style={{color:"#475569", fontSize:"40px"}}/>
+                         <DiMongodb style={{color:"#475569", fontSize:"40px"}}/>
+                         <DiFirebase style={{color:"#475569", fontSize:"40px"}}/>
+                       </div>
+                      </div>                                    
+                   </Paper>
+               </Grid>
+
+
+
+
+               <Grid item xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
+                   <Paper>
+                     <div className="container1">
+                      <div className="content1">
+                      <h4>Shine.com</h4>
+                          <p>A website which allows applicant and recruiter to make their account. On 
+                              portal recruiter can post a job and applicant can apply for a job.
+                          </p>
+                          <p>
+                              Project duration: 4 days
+                          </p>
+                          <p>
+                             TechStack: React, Redux, Firebase 
+                          </p>
+                          <p>
+                             Team: 4 members 
+                          </p>
+
+
+                        </div>
+                        <div>
                          <FaReact style={{color:"#475569", fontSize:"40px"}}/>
                          <SiRedux style={{color:"#475569", fontSize:"40px"}}/>
                          <DiFirebase style={{color:"#475569", fontSize:"40px"}}/> 
@@ -110,7 +148,41 @@ function Project() {
                    </Paper>
                </Grid>
                
-               <Grid item  xl={3} lg={4} md={4} sm={6} xs={12} className="projectdiv">
+
+
+
+
+               <Grid item  xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
+                   <Paper>     
+                   <div className="container">
+                      <div className="content">
+                      <div className="content-overlay"></div>
+                          <img className="ss_img" src={shine} alt="shopperstop"/>
+                          <div class="content-details fadeIn-top">
+                            <h3>Shine.com</h3>
+                            <p>Online Job Portal</p>
+                           
+                          </div>
+                      </div>
+                     
+                      <div className="gitlive">
+                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                </a> 
+                            <div style={{width:"20px"}} />
+                            <a href="https://shine-masai.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                                </a> 
+                            </div>
+
+                      </div>        
+                   </Paper>
+               </Grid>
+
+
+
+
+
+
+               <Grid item  xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
                    <Paper>     
                    <div className="container">
                       <div className="content">
@@ -119,24 +191,87 @@ function Project() {
                           <div class="content-details fadeIn-top">
                             <h3>Whatsapp.com</h3>
                             <p>Messaging app</p>
-                            <div className="gitlive">
+                           
+                          </div>
+                      </div>
+
+                      <div className="gitlive">
                                 <a href="https://github.com/Shubhamsharma585/Whatsapp_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
                             <a href="https://whatsappbyshubhamsharma585.netlify.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
-                          </div>
+    
+                      </div>        
+                   </Paper>
+               </Grid>
+
+
+
+               <Grid item  xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
+                   <Paper>     
+                   <div className="container1">
+                      <div className="content1">
+                      <h4>Whatsapp.com</h4>
+                          <p>A website which allows user to register through gmail account where user can
+                              search for registerd users and start communicating with them using
+                              chats, emojis and pictures.
+                          </p>
+                          <p>
+                              Project duration: 3 days
+                          </p>
+                          <p>
+                             TechStack: React, Context API, Firebase 
+                          </p>
+                          <p>
+                             Team: Individual 
+                          </p>
+
                       </div>
                       <div>
                          <FaReact style={{color:"#475569", fontSize:"40px"}}/>
                          <DiFirebase style={{color:"#475569", fontSize:"40px"}}/> 
+                         <SiMaterialUi style={{color:"#475569", fontSize:"40px"}}/>
                        </div>
                       </div>        
                    </Paper>
                </Grid>
 
-               <Grid item  xl={3} lg={4} md={4} sm={6} xs={12} className="projectdiv">
+
+
+               <Grid item  xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
+                   <Paper>
+                   <div className="container1">
+                      <div className="content1">
+                      <h4>HubSpot.com</h4>
+                          <p>A website where user can register themselves and navigate through 
+                            the services hubspot provide.
+                          </p>
+                          <p>
+                              Project duration: 4 days
+                          </p>
+                          <p>
+                             TechStack: HTML, CSS, JavaScript.
+                          </p>
+                          <p>
+                             Team: 4 members 
+                          </p>
+           
+                      </div>
+                      <div>
+                        <FaHtml5 style={{color:"#475569", fontSize:"40px", margin:"5px"}}/>
+                        <FaCss3Alt style={{color:"#475569", fontSize:"40px", margin:"5px"}}/> 
+                        <IoLogoJavascript style={{color:"#475569", fontSize:"40px", margin:"5px"}}/>
+                       </div>
+                      </div>     
+                   </Paper>
+               </Grid>
+
+
+
+
+               <Grid item  xl={6} lg={6} md={6} sm={12} xs={12} className="projectdiv">
                    <Paper>
                    <div className="container">
                       <div className="content">
@@ -145,20 +280,17 @@ function Project() {
                           <div class="content-details fadeIn-top">
                             <h3>HubSpot.com</h3> 
                             <p>Internet Marketing Company</p>
-                            <div className="gitlive">
+                           
+                          </div>
+                      </div>
+                      <div className="gitlive">
                                 <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
                                 <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
-                            </div>
-                          </div>
-                      </div>
-                      <div>
-                        <FaHtml5 style={{color:"#475569", fontSize:"40px", margin:"5px"}}/>
-                        <FaCss3Alt style={{color:"#475569", fontSize:"40px", margin:"5px"}}/> 
-                        <IoLogoJavascript style={{color:"#475569", fontSize:"40px", margin:"5px"}}/>
-                       </div>
+                        </div>
+            
                       </div>     
                    </Paper>
                </Grid>
