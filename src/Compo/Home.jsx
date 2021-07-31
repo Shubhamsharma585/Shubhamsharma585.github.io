@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import ban from "../images/ban.svg"
+import ban from "../images/ban.svg" 
 import Nav from "./Nav/Nav"
 import About from "./About/About"
 import Prof from "./Prof/Prof"
@@ -12,7 +12,7 @@ import Getin from "./Getin/Getin"
 import Footer from "./Footer/Footer"
 import Typical from 'react-typical'
 import { Link } from 'react-scroll' 
-
+import Top from "./Top/Top"
 
  
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
     return (
         <div id="home_top" className="home_top">
          
-
+{/* 
           <div className="home_banner">
 
              <div >  
@@ -55,11 +55,12 @@ function Home() {
                 </div></Link>
 
               </div>
-          </div>
+          </div> */}
 
 
           <div className="navbar2">
            <Nav/>
+           <Top/>
            <About/>
            <Prof/> 
            <Project/>

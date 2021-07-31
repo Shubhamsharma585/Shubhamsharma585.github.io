@@ -6,9 +6,10 @@
 {
     border: black 0px solid;
     height: 70px;
-    margin-top: 100px;
-    background-color: rgb(0, 195, 255);
-    box-shadow: 0px 0px 5px 1px rgb(187, 243, 247);
+    margin-top: -60px;
+    background-color: rgb(250, 248, 248);
+    /* background-color: rgb(0, 195, 255); */
+    /* box-shadow: 0px 0px 5px 1px rgb(187, 243, 247); */
     position: sticky;
     top: 0px;
     z-index:1;
@@ -18,7 +19,7 @@
 @media screen and (min-width: 600px) {
     .nav
     {
-      margin-top: 250px; 
+      margin-top: 0px; 
       position: sticky;
       top: 0px;
       z-index:1;
