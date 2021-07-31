@@ -62,11 +62,11 @@ function Home() {
            <Nav/>
            <Top/>
            <About/>
+           <Masai/>
            <Prof/> 
            <Project/>
            <Blog/>
-           <Masai/>
-           {/* <Calender/> */}
+           <Calender/>
            <Getin/>
            <Footer/>
           </div>    

@@ -16,6 +16,7 @@
 .home_name
 {
     color: #3498db;
+    cursor: default;
 }
 
 .home_profile
@@ -33,6 +34,7 @@
     color: #484848;
     font-size: 20px;
     font-weight: 400;
+    cursor: default;
 }
 
 .home_getstarted

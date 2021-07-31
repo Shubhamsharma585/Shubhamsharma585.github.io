@@ -3,11 +3,11 @@
 {
     border: 0px solid lightgray;
     min-width: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 } 
  
   
-.about_right
+.about_right 
 {
     border: 0px solid lightgray;
     background-color: #0E6E84;
@@ -38,7 +38,7 @@
     .about_right
     {
         border: 0px solid lightgray;
-        background-color: #0E6E84;
+        background-color: #045388;
         height: 800px;
         color: white;
         text-align: left;
@@ -63,7 +63,7 @@
 .about_left
 {
     border: 0px solid lightgray;
-    background-color: #17a2b8;
+    background-color: #043759;
     margin-top: 20px;
     height: 800px;
     display: float;
@@ -72,7 +72,7 @@
 .tech
 {
     border: 0px solid black;
-    background-color: #36ADA4;
+    background-color: #0E6E84;
     border-radius: 50%;
     margin: 18px;
     padding: 10px;

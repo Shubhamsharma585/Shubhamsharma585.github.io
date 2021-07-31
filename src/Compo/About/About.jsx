@@ -36,7 +36,7 @@ function About() {
 
     const classes = useStyles();
 
-
+ 
 
 
      
@@ -57,7 +57,7 @@ function About() {
                 <Grid item  xl={6} lg={6} md={6} sm={12} xs={12}>
                      <div className="about_left"> 
                      <div className="left_bar"></div>
-                       <h1>Skills</h1>
+                       <h1 style={{color:"white"}}>Skills</h1>
                         <div className="left_bar">
                         <Tooltip title={<h1 style={{ color: "white" }}>HTML</h1>}><div className="tech"> <FaHtml5 style={{color:"white", fontSize:"75px", margin:"5px"}}/></div></Tooltip>
                         <Tooltip title={<h1 style={{ color: "white" }}>CSS</h1>}><div className="tech"> <FaCss3Alt style={{color:"white", fontSize:"75px", margin:"5px"}}/> </div></Tooltip>

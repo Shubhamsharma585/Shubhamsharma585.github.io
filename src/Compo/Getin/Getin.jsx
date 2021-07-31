@@ -18,7 +18,7 @@ function Getin() {
         <div className="getin" id="contact"> 
            <div className="main">
             <div className="form">
-
+ 
             <div className="getinheading"> <h1 style={{color:"white", margin:"auto", width:"fit-content"}}>Get in Touch</h1>
             </div>
                
@@ -32,7 +32,7 @@ function Getin() {
                 <input type="text" id="sub" name="Subject" placeholder="Subject" required="true"/><br></br>
                 <textarea id="msg" name="message" placeholder="Message" required="true"></textarea><br/>
 
-                 <button type="submit" variant="contained" color="secondary" size="50px" className="btn">
+                 <button type="submit" variant="contained" size="50px" className="btn">
                     Send Message
                  </button>
 

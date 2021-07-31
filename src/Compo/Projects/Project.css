@@ -173,15 +173,15 @@
   }
   
   .content-details h3{
-    color: rgb(255, 0, 43);
-    font-weight: 500;
+    color: #3498db;
+    font-weight: 600;
     letter-spacing: 0.15em;
     margin-bottom: 0.5em;
     text-transform: uppercase;
   }
   
   .content-details p{
-    color: rgb(236, 115, 115);
+    color: #3498db;
     font-size: 0.8em;
   }
   

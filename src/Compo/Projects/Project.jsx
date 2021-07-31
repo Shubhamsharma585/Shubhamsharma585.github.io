@@ -12,6 +12,8 @@ import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
 import { SiRedux, SiMaterialUi } from "react-icons/si";
+import { green } from '@material-ui/core/colors';
+
 
   
 const useStyles = makeStyles((theme) => ({ 
@@ -22,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(1),
         textAlign: 'center',
         color: theme.palette.text.secondary,
+      },
+
+      btn: {
+          backgroundColor:"#3498db"
       }
 
 }))
@@ -39,7 +45,7 @@ function Project() {
             <h1 className="project_header">Projects</h1>
             <br/><br></br>
 
-          
+           
 
 
 
@@ -75,10 +81,10 @@ function Project() {
                       </div>
 
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                       </div> 
@@ -166,10 +172,10 @@ function Project() {
                       </div>
                      
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shine-masai.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a href="https://shine-masai.vercel.app/">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
 
@@ -196,10 +202,10 @@ function Project() {
                       </div>
 
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Whatsapp_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/Whatsapp_Clone">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://whatsappbyshubhamsharma585.netlify.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a href="https://whatsappbyshubhamsharma585.netlify.app/">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
     
@@ -284,10 +290,10 @@ function Project() {
                           </div>
                       </div>
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                                <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                                <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                         </div>
             
