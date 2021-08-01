@@ -8,8 +8,8 @@
      vertical-align: middle;
      padding-top: 2%;
      padding-bottom: 2%;
-     width: 98%;
-     
+     width: 95%;
+     border: 0px solid black;
  } 
 
  /* #FFC831 */
@@ -58,8 +58,6 @@
   color: #0E6E84;
  }
 
- .ski
- {
- 
- }
 
+
+ 
