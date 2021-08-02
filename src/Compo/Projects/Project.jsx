@@ -84,7 +84,7 @@ function Project() {
                                 <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a href="https://shoppersstop-clone-sigma.vercel.app/">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                       </div> 
