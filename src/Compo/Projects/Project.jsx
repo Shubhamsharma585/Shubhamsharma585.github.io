@@ -80,8 +80,7 @@ function Project() {
                                 >  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a 
-                            href="https://shoppersstop-clone-sigma.vercel.app/"
+                            <a href="https://shoppersstop-clone-sigma.vercel.app/"
                             target="_blank"
                             >  
                             <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
@@ -172,8 +171,7 @@ function Project() {
                       </div>
                      
                       <div className="gitlive">
-                                <a 
-                                href="https://github.com/Shubhamsharma585/Shine-masai"
+                                <a href="https://github.com/Shubhamsharma585/Shine-masai"
                                 target="_blank"
                                 >  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
