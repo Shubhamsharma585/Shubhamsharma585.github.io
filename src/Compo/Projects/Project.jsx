@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
+
 function Project() { 
 
 
@@ -69,22 +70,21 @@ function Project() {
                             <h3>Shopperstop.com</h3>
                             <p>E-Commerce Website</p>
 
-                            {/* <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
-                                </a> 
-                            <div style={{width:"20px"}} />
-                            <a href="https://shoppersstop-clone-1dr7xijdf-tushartaral.vercel.app/">  <Button color="secondary" variant="contained" style={{fontSize:"14px"}}>Live</Button>
-                                </a> 
-                            </div> */}
                             
                           </div>
                       </div>
 
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/ShoppersStop_Clone"
+                                 target="_blank"
+                                >  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shoppersstop-clone-sigma.vercel.app/">  <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a 
+                            href="https://shoppersstop-clone-sigma.vercel.app/"
+                            target="_blank"
+                            >  
+                            <Button className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
                       </div> 
@@ -172,10 +172,15 @@ function Project() {
                       </div>
                      
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Shine-masai">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a 
+                                href="https://github.com/Shubhamsharma585/Shine-masai"
+                                target="_blank"
+                                >  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://shine-masai.vercel.app/">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a href="https://shine-masai.vercel.app/"
+                            target="_blank"
+                            >  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
 
@@ -202,10 +207,15 @@ function Project() {
                       </div>
 
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/Whatsapp_Clone">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a 
+                                href="https://github.com/Shubhamsharma585/Whatsapp_Clone"
+                                target="_blank"
+                                >  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                            <a href="https://whatsappbyshubhamsharma585.netlify.app/">  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                            <a href="https://whatsappbyshubhamsharma585.netlify.app/"
+                            target="_blank"
+                            >  <Button className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                             </div>
     
@@ -290,10 +300,14 @@ function Project() {
                           </div>
                       </div>
                       <div className="gitlive">
-                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone">  <Button size="large" className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
+                                <a href="https://github.com/Shubhamsharma585/HubSpot_Clone"
+                                target="_blank"
+                                >  <Button size="large" className={classes.btn}  variant="contained" style={{fontSize:"14px"}}>GitHub</Button>
                                 </a> 
                             <div style={{width:"20px"}} />
-                                <a href="https://hubspot-clone.herokuapp.com/">  <Button size="large" className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
+                                <a href="https://hubspot-clone.herokuapp.com/"
+                                target="_blank"
+                                >  <Button size="large" className={classes.btn} variant="contained" style={{fontSize:"14px"}}>Live</Button>
                                 </a> 
                         </div>
             
