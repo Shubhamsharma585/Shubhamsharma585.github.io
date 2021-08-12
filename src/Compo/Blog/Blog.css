@@ -8,10 +8,17 @@
     
 }
 
- 
-.blog_box
+.blog_img
 {
-   width: 40%;
+   width: 260px;
+   cursor: pointer;
+} 
+
+ 
+.blog_box 
+{
+   width: 100%;
+   justify-content: center;
 }
 
 
@@ -45,10 +52,9 @@
 .blog_detail
 {
     border: black 0px solid;
-    width: 300px;
-    text-align: left;
+    width: 300px;  
     margin: auto;
-    margin-left: 40px;
+    text-align: left;
     padding: 5px 10px;
     
 }
@@ -66,14 +72,8 @@
    border: black 0px solid;
    border-radius: 15px;
    overflow: hidden;
-   width: 400px;
 }
 
-.blog_img
-{
-   width: 300px;
-   cursor: pointer;
-} 
 
 
 

@@ -26,18 +26,17 @@ function Home() {
           <div className="navbar2">
            <Nav/>
            <Top/>
-           <About/>
-
+           <About/> 
            <Masai/>
 
            <Prof/> 
            <Project/>
-           <Blog/>
+            <Blog/> 
            <Calender/>
-           <Getin/>
+            <Getin/>
            <Footer/>
           </div>    
-          
+           
            <br/>
 
 

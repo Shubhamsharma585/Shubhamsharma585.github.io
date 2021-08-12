@@ -51,7 +51,7 @@ function About() {
             spacing={0}
             direction="row"
             justifyContent="center"
-            alignItems="center"
+            alignItems="center" 
             >
                
                 <Grid item  xl={6} lg={6} md={6} sm={12} xs={12}>

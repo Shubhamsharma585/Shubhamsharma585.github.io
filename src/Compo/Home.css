@@ -5,7 +5,7 @@
     margin-bottom: 50px;
     height: 730px;
     width: 99%;
-}
+} 
 
 .home_banner
 { 
@@ -78,6 +78,7 @@
 {
   position: sticky;
   top: 0;
+  border: 0px solid black;
 }
 
 
