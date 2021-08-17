@@ -99,13 +99,13 @@ function About() {
                <p className="number"><FaPhoneAlt/> +91-8619941188</p>
                <p className="number"><IoMailSharp/> Shubhamsharma585@gmail.com</p> 
                <div style={{display:"flex", flexDirection:"row"}}> 
-                   <a href="https://drive.google.com/file/d/1GhLXW0ita-TlWxpLLyd2eJp4pJa3rLY2/view?usp=sharing"><h3 style={{marginTop:"3px", fontSize:"20px", color:"white"}}>View Full Resume</h3></a> 
+                   <a href="https://drive.google.com/file/d/1GhLXW0ita-TlWxpLLyd2eJp4pJa3rLY2/view?usp=sharing"  target="_blank"><h3 style={{marginTop:"3px", fontSize:"20px", color:"white"}}>View Full Resume</h3></a> 
                 </div>  
                         </div>                      
                     </div> 
                 </Grid>
 
-
+ 
             </Grid>    
              </div>
         </div>
