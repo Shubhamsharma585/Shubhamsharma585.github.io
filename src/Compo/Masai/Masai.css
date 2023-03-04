@@ -1,0 +1,51 @@
+.masai {
+  background-color: #f9f9f9;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 95%;
+  border: 0px solid black;
+}
+
+/* #FFC831 */
+/* #0E6E84 */
+
+.masaiu {
+  background-color: #0e6e84;
+  height: 40%;
+  justify-content: space-around;
+  padding-top: 10%;
+  margin-bottom: 0px;
+}
+.masail {
+  background-color: white;
+  height: 45%;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.hour {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  margin: auto;
+}
+.htag1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #0e6e84;
+}
+
+.htag {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #0e6e84;
+}

@@ -1,0 +1,40 @@
+.cal_main {
+  margin: auto;
+  margin-bottom: 100px;
+  width: 98%;
+}
+
+.cal_banner {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid black;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.cal_p {
+  width: 290px;
+}
+
+@media screen and (min-width: 600px) {
+  .cal_banner {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    width: 800px;
+    height: 250px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .cal_p {
+    width: 390px;
+  }
+
+  .cal_main {
+    margin-bottom: 150px;
+    border: 0px solid black;
+  }
+}

@@ -1,0 +1,156 @@
+.home_top {
+  border: black 0px solid;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 730px;
+  width: 99%;
+}
+
+.home_banner {
+  border: black 0px solid;
+  width: 76%;
+}
+
+.home_name {
+  color: #3498db;
+  cursor: default;
+}
+
+.home_profile {
+  /* border: black 1px solid; */
+  padding: 50px;
+  text-align: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 25%;
+}
+
+.home_subtag {
+  color: #484848;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: default;
+}
+
+.home_getstarted {
+  border: 2px solid #3498db;
+  border-radius: 30px;
+  font-size: 18px;
+  width: 160px;
+  padding: 5px;
+  padding-left: 20px;
+  height: 25px;
+  text-align: center;
+  display: float;
+  color: #3498db;
+}
+.home_getstarted:hover {
+  border: 2px solid #3498db;
+  transition: background-color 0.5s ease;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+.mywork {
+  border: black 0px solid;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 120px;
+  float: left;
+}
+.arrow {
+  margin-left: 0px;
+  border: black 0px solid;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar2 {
+  position: sticky;
+  top: 0;
+  border: 0px solid black;
+}
+
+.home_image {
+  width: 300px;
+  margin-left: 8%;
+  margin-right: 0%;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: up-down;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .home_top {
+    border: black 0px solid;
+    height: 730px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .home_banner {
+    border: black 0px solid;
+    width: auto;
+  }
+
+  .home_image {
+    /* border: 1px solid rgb(235, 8, 8); */
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+    float: left;
+    margin-top: 0%;
+    margin-right: 20%;
+  }
+  .home_profile {
+    /* border: 1px solid black;   */
+    margin-left: 26px;
+    margin-top: 10%;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .home_top {
+    border: black 0px solid;
+    height: 730px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .home_banner {
+    border: black 0px solid;
+    width: auto;
+  }
+
+  .home_image {
+    border: 0px solid #3498db;
+    border-radius: 50%;
+    width: 450px;
+    height: 400px;
+    justify-content: space-between;
+    float: right;
+    margin-top: 0%;
+    margin-right: 15%;
+  }
+  .home_profile {
+    /* border: 1px solid black;   */
+    margin-left: 46px;
+    margin-top: 11%;
+    width: 500px;
+  }
+}

@@ -1,0 +1,163 @@
+.getin {
+  border: 0px solid black;
+  height: 700px;
+  margin-top: 30px;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  height: 500px;
+  width: 300px;
+  margin: auto;
+  margin-top: 0px;
+  border: 0px solid red;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.getinheading {
+  border: 0px solid white;
+  border-bottom: white 3px solid;
+  width: 250px;
+  margin: auto;
+  padding: 0px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  background-color: black;
+  color: red;
+}
+
+textarea {
+  width: 70%;
+  height: 100px;
+  font-size: 16px;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: red;
+  border: 1px solid grey;
+  background-color: black;
+}
+
+.con {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  height: 50px;
+  width: 50%;
+  font-size: 15px;
+  color: white;
+  background-color: #3498db;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 40px;
+}
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.getinleft {
+  border: 0px solid red;
+  width: 100%;
+}
+
+.getinright {
+  border: 0px solid red;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.getinright1 {
+  border: 0px solid red;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    height: 500px;
+    width: 450px;
+    border: 0px solid red;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    height: 500px;
+    width: 900px;
+    border: 0px solid turquoise;
+    box-shadow: 0px 0px 0px 0px turquoise;
+  }
+
+  .getinheading {
+    margin-top: -30px;
+    margin-bottom: 70px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  input {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    width: 70%;
+    height: 100px;
+    font-size: 16px;
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+
+  .getinleft {
+    width: 50%;
+  }
+
+  .getinright {
+    margin-top: 50px;
+    width: 50%;
+    height: 100px;
+  }
+}

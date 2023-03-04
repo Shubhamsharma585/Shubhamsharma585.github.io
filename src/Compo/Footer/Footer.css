@@ -1,0 +1,72 @@
+.footer {
+  height: 20px;
+  border: black 0px solid;
+  border-radius: 0px;
+  background-color: #3498db;
+  margin-top: 0px;
+  margin-bottom: -20px;
+  /* box-shadow: 0px 0px 5px 1px turquoise; */
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px;
+  padding-right: 15px;
+  justify-content: center;
+  display: flex;
+}
+
+.footer > p {
+  color: rgb(168, 211, 247);
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.foo_name {
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.footertop {
+  border: 0px solid black;
+  border-radius: 5px;
+  background-color: rgb(13, 145, 216);
+  margin: auto;
+  text-align: center;
+  width: 30px;
+  padding: 2px;
+  position: relative;
+  top: -35px;
+  left: 160px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .footer {
+    height: 30px;
+    border: black 0px solid;
+    border-radius: 0px;
+    background-color: #3498db;
+    margin-top: 0px;
+    margin-bottom: -30px;
+    text-align: right;
+    padding: 5px;
+    padding-top: 15px;
+    padding-right: 15px;
+    justify-content: center;
+  }
+
+  .footertop {
+    top: -35px;
+    left: 680px;
+    cursor: pointer;
+  }
+
+  .footer > p {
+    float: right;
+  }
+
+  .footer_name {
+    margin-left: 70%;
+    border: 0px solid;
+  }
+}

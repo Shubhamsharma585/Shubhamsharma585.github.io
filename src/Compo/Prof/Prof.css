@@ -1,0 +1,47 @@
+.prof_header {
+  font-family: "apercu", sans-serif;
+  color: rgb(36, 35, 35);
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+}
+
+.prof {
+  border: black 0px solid;
+  width: 85%;
+  padding-top: 0px;
+  margin: auto;
+  margin-right: 5%;
+  padding-right: -8%;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 600px) {
+  .prof {
+    border: black 0px solid;
+    padding-top: 0px;
+    margin: auto;
+    margin-right: 7%;
+    padding-right: -4%;
+    justify-content: space-around;
+  }
+}
+
+.prof_block {
+  margin: auto;
+  border: black 0px solid;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(103, 103, 103);
+}
+
+.subheading {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(103, 103, 103);
+}
