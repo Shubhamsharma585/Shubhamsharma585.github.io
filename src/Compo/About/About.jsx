@@ -146,7 +146,7 @@ function About() {
                     {" "}
                     <br /> I am looking for opportunity to apply my knowledge
                     and skills to be a valuable assets for organization and a
-                    better version of myself.
+                    better version of mine.
                   </span>
                 </p>
                 <p className="number">
